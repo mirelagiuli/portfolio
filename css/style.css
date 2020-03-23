@@ -1,0 +1,121 @@
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-color: #f4f4f4; 
+}
+.menu { /* cabeçalho principal logo + menu de navegação */
+	width: 100%;
+	height: 90px;
+	background-color: #f4f4f4; 
+	border-bottom: 1px #BFBFBF solid;
+	position: sticky;
+	top: 0;
+	overflow: auto;
+}
+.logo a { /* logo/nome fixo no cabeçalho*/
+	float: left;
+	display: inline-block;
+	color: #24201F;
+	font-family: 'Raleway', sans-serif; 
+	font-size: 25px; 
+	font-weight: bold;
+	margin: 0;
+	padding: 30px 40px;
+	text-decoration: none;
+}
+.menu-nav ul { 
+	list-style: none;
+	margin: 0;
+	padding: 30px 0;
+}
+.menu-nav li a {
+	float: right;
+	display: inline-block;
+	color: #BD155D;
+	font-family: 'Muli', sans-serif; /*fonte do menu*/	
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+	padding: 12px 13px;
+	text-decoration: none;
+}
+.menu-nav li a:hover {
+	color: black;
+}
+.container-proj {
+	background-color: #f4f4f4;
+	margin: auto;
+	width: 98%;
+}
+#img-chamada {
+	/* COLOCAR ESPECIFICAÇÕES*/
+}
+.container-proj h1 { /*Título para chamada do site*/
+	color: #24201F;
+	font-family: 'Muli', sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	margin: 10px 0;
+	padding: 50px 30px;
+}
+.container-proj h2 {
+	color: #24201F;
+	font-family: 'Muli', sans-serif;
+	font-size: 30px;
+	font-weight: bold; 
+}
+footer { /* estrutura rodapé do site */
+	height: 60px;
+	background-color: #f4f4f4;
+	border-top: 1px #BFBFBF solid;
+}
+#direitos p { /* frase de copyright */
+	display: inline-block;
+	float: left;
+	margin: 0;
+	padding: 40px 30px;
+	color: #24201F;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-weight: normal;
+}
+#redes { 
+	display: inline-block;
+	float: right;
+	padding-top: 30px;
+	padding-right: 70px; 
+}
+#redes i { /* icones das redes sociais e curriculo */
+	color: #24201F;
+	margin: 0;
+	padding: 5px;
+}
+
+/* Codigos página SOBRE */
+
+.site-sobre #img-sobre {
+	border-radius: 50%;
+	max-width: 500px;
+	max-height: 200px;
+	width: auto;
+	height: auto;
+	margin: 40px;
+}
+.site-sobre h1 {
+	color: #24201F;
+	font-family: 'Muli', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	margin: 0;
+	padding: 50px 30px;
+}
+.site-sobre-paragrafo p {
+	color: #24201F;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	margin: 10px;
+	padding: 50px 30px;
+	text-align: justify;
+}
