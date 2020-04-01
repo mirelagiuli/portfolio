@@ -7,66 +7,83 @@
 		<title>Mirela De Giuli | Design</title>
 		<script src="https://kit.fontawesome.com/4bd9ec8b47.js" crossorigin="anonymous"></script>
 		<link rel="stylesheet" type="text/css" href="./css/style.css">
-		<link href="https://fonts.googleapis.com/css?family=Muli|Raleway&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
 	</head>
 
 	<body>
-		<!-- Barra de Navegação -->
-		<header class="menu">
-			<div class="logo">
-				<a href="index.html">Mirela De Giuli</a>
-			</div>
-			<div class="menu-nav">
+		<!-- Navegação -->
+		<header class="header header__container">
+			<div class="site-owner">Mirela De Giuli</div>
+			<div class="site-nav">
 				<ul>
 					<li>
-						<a href="index.html">Portfolio</a>
+						<a class="nav-item" href="index.html">Home</a>
 					</li>
 					<li>
-						<a href="portfolio-sobre.html">Sobre</a>
+						<a class="nav-item" href="portfolio-sobre.html">Sobre</a>
 					</li>
 					<li>
-						<a href="portfolio-contato.html">Contato</a>
+						<a class="nav-item" href="portfolio-contato.html">Contato</a>
 					</li>
 				</ul>
 			</div>
 		</header>
-		<!-- INICIO Container de Projetos -->
-		<div class="container-proj">
-			<div class="container-chamada">
-				<img id="img-chamada" src="img/img_pc.jpg">
-				<h1>Projeto de Produto, UI/UX e Desenvolvimento Front-end</h1>
+
+		<!-- Início hero -->
+		<div class="hero"> 
+			<div class="container hero__container"> 
+				<div class="hero__img">
+					<img src="./img/beout_app.png">
+				</div>
+				<div class="hero__text">
+					<h2 class="hero__quote">Criatividade e expertise<br>para impactar<br>a experiência<br>do seu usuário.</h2>
+					<h1 class="hero__subtitle">Designer e Desenvolvedora Front-end</h1>
+						<!-- Botão "entre em contato" que leva para página contato-->
+					<div class="hero__btn"><a href="portfolio-contato.html" class="btn">Entre em contato!</a></div>
+				</div>	
 			</div>
-			<div id="projeto-1">
-				<a href="Projeto1.html" title="BeOut App - Conceito">
-					<img width="300px" src="img/beout_app.png">
-				</a>
-				<h2>BeOut App (Conceito)</h2>
-			</div>
-			<div id="projeto-2">
-				<a href="Projeto2.html" title="Desenvolvimento de sites">
-					<img width="300px" height="auto" src="img/Interface_sww.png">
-				</a>
-				<h2>Desenvolvimento de sites</h2>
-			</div>	
-			<div id="projeto-3">
-				<a href="Projeto3.html" title="Avaliação de interfaces">
-					<img width="300px" height="auto" src="img/beout_app_2.png">
-				</a>
-				<h2>Avaliação de Interfaces</h2>
-			</div>	
 		</div>
-		<!-- FIM Container de Projetos -->	
+		<!-- Fim hero -->
+
+		<!-- Início seção de serviços -->
+		<div class="work-section">
+			<div class="container work__container">
+				<h3>Quais serviços eu ofereço</h3>
+				<div class="work__quote">Meus trabalhos têm como princípio fundamental<br>a aplicação de metodologias de Design Centrado no Usuário.</div>
+				<div class="works__wrapper">
+					<!-- Projetos e seus links-->
+					<div class="work one">
+						<div class="work-cover">
+							<div class="work-name">Design de produto</div><a href="#" class="work-link">Veja mais</a>
+						</div>		
+					</div>
+					<div class="work two">
+						<div class="work-cover">
+							<div class="work-name">UX Research</div><a href="#" class="work-link">Veja mais</a>
+						</div>		
+					</div>
+					<div class="work three">
+						<div class="work-cover">
+							<div class="work-name">Desenvolvimento Front-end</div><a href="#" class="work-link">Veja mais</a>
+						</div>		
+					</div>
+				</div>		
+			</div>			
+		</div>
+		<!-- Fim seção de serviços -->
+
 		<!--Rodapé da página-->
 		<footer>
-			<div id="direitos">
-				<p>&copy 2020 Mirela De Giuli. Todos os direitos reservados.</p>
-			</div>
-			<div id="redes">
-				<a href="https://br.linkedin.com/in/mirela-de-giuli-769901181" title="linkedin" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-				<a href="https://www.behance.net/mirela_rgi0cea" title="Behance" target="_blank"><i class="fab fa-behance-square fa-2x"></i></a>
-				<a href="http://lattes.cnpq.br/3614209603913870" title="Currículo Lattes" target="_blank"><i class="fas fa-university fa-2x"></i></a>
+			<div class="footer footer__container">
+				<div class="footer-cpr">
+					&copy 2020 Mirela De Giuli. Todos os direitos reservados.
+				</div>
+				<div class="footer-medias"> 
+					<a class="footer-media__icon" href="https://br.linkedin.com/in/mirela-de-giuli-769901181" title="linkedin" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+					<a class="footer-media__icon" href="https://www.behance.net/mirela_rgi0cea" title="Behance" target="_blank"><i class="fab fa-behance-square fa-2x"></i></a>
+					<a class="footer-media__icon" href="http://lattes.cnpq.br/3614209603913870" title="Currículo Lattes" target="_blank"><i class="fas fa-university fa-2x"></i></a>
+				</div>
 			</div>	
 		</footer>
-
 	</body>
 </html>
